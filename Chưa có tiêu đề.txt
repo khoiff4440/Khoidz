@@ -1,0 +1,57 @@
+chuỗi tải(trò chơi:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+
+       Cửa sổ cục bộ = MakeWindow({
+         Trung tâm = {
+         Tiêu đề = "Khoi vip pro:)",
+         Hoạt hình = "Hi lo con gà"
+         },
+        Phím = {
+        KeySystem = sai,
+        Tiêu đề = "Hệ thống khóa",
+        Mô tả = "",
+        Liên kết khóa = "",
+        Phím = {"1234"},
+        Thông báo = {
+        Thông báo = đúng,
+        CorrectKey = "Đang chạy tập lệnh...",
+       Incorrectkey = "Khóa không đúng",
+       CopyKeyLink = "Đã sao chép vào Bảng tạm"
+      }
+    }
+  })
+
+       Nút thu nhỏ({
+       Hình ảnh = "http://www.roblox.com/asset/?id=83190276951914",
+       Kích thước = {60, 60},
+       Màu sắc = Color3.fromRGB(10, 10, 10),
+       Góc = đúng,
+       Stroke = sai,
+       StrokeColor = Color3.fromRGB(255, 0, 0)
+      })
+      
+------ Thẻ
+     Tab1o cục bộ = MakeTab({Tên = "Script Farm"})
+      Tab2o cục bộ = MakeTab({Tên = "Hop"})
+------- CÁI NÚT
+    
+    Thêm nút(Tab1o, {
+     Tên = "Redz Hub",
+    Gọi lại = hàm()
+	  Thiết lập cục bộ = {
+  JoinTeam = "Cướp biển"; -- Cướp biển/Thủy quân lục chiến
+  Người dịch = đúng; -- đúng/sai
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Cài đặt)
+  kết thúc
+  })
+  
+    Thêm nút(Tab1o, {
+     Tên = "nogichihyuga hop",
+    Gọi lại = hàm()
+	  Thiết lập cục bộ = {
+  JoinTeam = "Cướp biển"; -- Cướp biển/Thủy quân lục chiến
+  Người dịch = đúng; -- đúng/sai
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Iamkhnah/noguchihyuga/refs/heads/main/ScriptHop.lua"))()
+  kết thúc
+  })
